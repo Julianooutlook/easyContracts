@@ -36,13 +36,13 @@ export default function LoginPage() {
 
       <div className="w-full max-w-5xl mx-auto flex flex-col lg:flex-row items-center justify-center gap-8">
 
-        <div className="hidden lg:flex flex-1 justify-center max-w-md mx-10" >
+        <div className="hidden lg:flex flex-1 justify-center max-w-xl mx-10" >
           <Image
             src={BG2}
             alt="BG"
             width={1000}
             height={800}
-            className="max-w-full h-auto"
+            className="w-full h-auto"
           />
         </div>
 
