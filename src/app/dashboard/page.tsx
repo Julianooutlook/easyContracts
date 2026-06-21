@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import { useAuth } from "@/hooks/useAuth";
+import { useAuth } from "@/app/contexts/AuthContext";
 import { api } from "@/lib/api";
 import { TemplateCard } from "@/components/contracts/TemplateCard";
 import { Badge } from "@/components/ui/Badge";

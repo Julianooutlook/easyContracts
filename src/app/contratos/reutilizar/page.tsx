@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
-import { useAuth } from "@/hooks/useAuth";
+import { useAuth } from "@/app/contexts/AuthContext";
 import { api } from "@/lib/api";
 
 function ReutilizarContent() {

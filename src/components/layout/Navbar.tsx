@@ -1,6 +1,6 @@
 "use client";
 import { useTheme } from "@/hooks/useTheme";
-import { useAuth } from "@/hooks/useAuth";
+import { useAuth } from "@/app/contexts/AuthContext";
 import { Button } from "@/components/ui/Button";
 import { Sun, Moon, FileText, LogOut, User, History, LayoutDashboard, Settings } from "lucide-react";
 import Link from "next/link";
